@@ -1,4 +1,5 @@
 import About from "@/components/About/About";
+import GetStarted from "@/components/GetStarted/GetStarted";
 import Hero from "@/components/Hero/Hero";
 import Statistics from "@/components/Statistics/Statistics";
 const SharedLayout = () => {
@@ -7,6 +8,7 @@ const SharedLayout = () => {
             <Hero/>
             <Statistics/>
             <About/>
+            <GetStarted/>
         </div>
      );
 }
