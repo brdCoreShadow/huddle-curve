@@ -5,6 +5,10 @@ export const GetStartedCon = styled.div`
 
   text-align: center;
 
+  @media (min-width: 1280px) {
+    margin-bottom: 178px;
+  }
+
   & > h3 {
     margin-bottom: 40px;
 
@@ -12,6 +16,12 @@ export const GetStartedCon = styled.div`
     line-height: 1.5;
 
     color: #00252e;
+
+    @media (min-width: 1280px) {
+      margin-bottom: 42px;
+
+      font-size: 40px;
+    }
   }
 
   & > button {
@@ -30,5 +40,27 @@ export const GetStartedCon = styled.div`
     border-radius: 20px;
 
     box-shadow: 0 4px 12px rgba(255, 82, 193, 0.4);
+
+    @media (min-width: 1280px) {
+      padding-top: 24px;
+      padding-bottom: 24px;
+      padding-left: 100px;
+      padding-right: 100px;
+
+      font-size: 20px;
+
+      border-radius: 40px;
+      transition: all 0.3s;
+
+      &:hover,
+      &:focus,
+      &:active {
+        opacity: 0.7;
+
+        cursor: pointer;
+
+        transition: all 0.3s;
+      }
+    }
   }
 `;

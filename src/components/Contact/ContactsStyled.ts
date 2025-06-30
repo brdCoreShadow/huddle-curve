@@ -2,6 +2,10 @@ import styled from "@emotion/styled";
 
 export const ContactCon = styled.div`
   margin-bottom: 48px;
+
+  @media (min-width: 1280px) {
+    margin-bottom: 80px;
+  }
 `;
 
 export const ContactLogoThumb = styled.div`
@@ -10,6 +14,12 @@ export const ContactLogoThumb = styled.div`
   & > img {
     width: 200px;
     height: 32px;
+
+    fill: #fff;
+  }
+
+  @media (min-width: 1280px) {
+    margin-bottom: 32px;
   }
 `;
 
@@ -19,6 +29,12 @@ export const ContactContent = styled.p`
   font-size: 14px;
   line-height: 1.5;
   font-weight: 600;
+
+  @media (min-width: 1280px) {
+    width: 340px;
+
+    margin-bottom: 24px;
+  }
 `;
 
 export const ContactList = styled.ul``;
@@ -53,8 +69,7 @@ export const ContactItem = styled.li`
     }
   }
 
-   &:nth-of-type(2) {
-
+  &:nth-of-type(2) {
     & > a::before {
       position: absolute;
       top: 0;

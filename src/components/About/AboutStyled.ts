@@ -112,7 +112,7 @@ export const AboutContentCon = styled.div`
     color: #00252e;
 
     @media (min-width: 1280px){
-        font-size: 16px;
+    font-size: 16px;
     }
   }
 `;

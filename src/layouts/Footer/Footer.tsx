@@ -8,8 +8,10 @@ const Footer: React.FC = () => {
   return (
     <SC.FooterCon>
       <NewsLetter />
+      <div>
       <Contacts/>
       <SocNet/>
+      </div>
     </SC.FooterCon>
   );
 };

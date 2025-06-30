@@ -1,6 +1,6 @@
 import * as SC from "./ContactsStyled";
 
-import logoIcon from "../../assets/images/logo.svg";
+import logoIcon from "../../assets/images/color_logo_transparent .svg";
 
 const Contacts: React.FC = () => {
   return (

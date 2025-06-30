@@ -2,11 +2,20 @@ import styled from "@emotion/styled";
 
 export const NewsLetterCon = styled.div`
   margin-bottom: 104px;
+
+  @media (min-width: 1280px) {
+    width: 520px;
+
+    margin-bottom: 0;
+  }
 `;
 
 export const NewsLetterContentCon = styled.div`
   margin-bottom: 32px;
 
+  @media (min-width: 1280px) {
+    width: 360px;
+  }
   & > h3 {
     margin-bottom: 16px;
 
@@ -24,8 +33,12 @@ export const NewsLetterContentCon = styled.div`
 `;
 
 export const NewsLetterForm = styled.form`
+  text-align: right;
 
-text-align: right;
+  @media (min-width: 1280px) {
+    display: flex;
+    flex-direction: row;
+  }
 
   & > input {
     width: 100%;
@@ -36,6 +49,11 @@ text-align: right;
     background-color: #fff;
 
     border-radius: 6px;
+
+    @media (min-width: 1280px) {
+      margin-bottom: 0;
+      margin-right: 40px;
+    }
   }
 
   & > button {
@@ -53,5 +71,19 @@ text-align: right;
     color: #fff;
 
     border-radius: 6px;
+
+    @media (min-width: 1280px) {
+      width: auto;
+      transition: all 0.3s;
+
+      &:hover,
+      &:focus,
+      &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+
+        transition: all 0.3s;
+      }
+    }
   }
 `;
