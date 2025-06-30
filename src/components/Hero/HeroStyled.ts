@@ -76,6 +76,16 @@ export const HeroBtn = styled.button`
     padding-right: 100px;
 
     font-size: 20px;
+
+        transition: all 0.3s;
+      &:hover,
+      &:focus,
+      &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+
+        transition: all 0.3s;
+      }
   }
 `;
 
